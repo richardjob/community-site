@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
 </head>
 
 <body>
@@ -32,10 +31,7 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="/register.html">Register</a>
                 </li>
             </ul>
         </div>
@@ -45,7 +41,6 @@
     <div class="text-center main-banner">
         <img src="./images/team.svg" width="50%" id="main-banner" class="rounded" alt="...">
     </div>
-
 
     <!-- Design -->
     <div class="design">
@@ -129,6 +124,7 @@
         </form>
     </div>
 
+    <div class="announcekit-widget"></div>
 
 
     <footer>
@@ -143,13 +139,17 @@
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
             crossorigin="anonymous"></script>
 
-        <!-- Beamer -->
+        <!-- Annouce Kit -->
         <script>
-            var beamer_config = {
-                product_id: "VmmtkKKC23606" //DO NOT CHANGE: This is your product code on Beamer
-            };
+            window.announcekit = (window.announcekit || { queue: [], on: function (n, x) { window.announcekit.queue.push([n, x]); }, push: function (x) { window.announcekit.queue.push(x); } });
+            window.announcekit.push({
+                "widget": "https://announcekit.app/widgets/v2/3Yq1ig",
+                "selector": ".announcekit-widget",
+                "embed": true
+            })
         </script>
-        <script type="text/javascript" src="https://app.getbeamer.com/js/beamer-embed.js" defer="defer"></script>
+        <script async src="https://cdn.announcekit.app/widget-v2.js"></script>
+
     </footer>
 
 

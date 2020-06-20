@@ -42,7 +42,7 @@ body {
   border-radius: 100px;
   background-color: var(--color-primary);
   margin: 2rem;
-  animation: up 1.5s linear alternate-reverse infinite;
+  animation: up 1s linear alternate-reverse infinite;
 }
 
 @keyframes up {

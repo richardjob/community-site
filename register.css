@@ -1,0 +1,30 @@
+:root {
+  --color-primary: #00203f;
+  --color-secondary: #adefd1;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#content {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0px;
+  height: 100%;
+}
+
+body {
+  font-family: "Sriracha";
+  font-size: 22px;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  margin: 0px;
+}
+
+
