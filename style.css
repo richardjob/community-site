@@ -15,6 +15,10 @@ body {
   margin-top: 50px;
 }
 
+.para-image {
+  width: 20%;
+}
+
 #form {
   padding: 20px;
   border: 1px solid white;
@@ -64,12 +68,11 @@ body {
   color: var(--color-primary);
 }
 
-.para{
-    width: 50%;
-    margin: auto;
-    color: white;
+.para {
+  width: 50%;
+  margin: auto;
+  color: white;
 }
-
 
 @media only screen and (max-width: 600px) {
   #main-banner {
@@ -82,8 +85,11 @@ body {
     margin-left: 20%;
     margin-right: 20%;
   }
-  .para{
+  .para {
     width: 80%;
     margin: auto;
-}
+  }
+  .para-image {
+    width: 40%;
+  }
 }
